@@ -3,7 +3,7 @@ from updatedGraphics import *
 class LegoCharacter(object):
     def __init__(self, win:GraphWin):
         self.head = LegoHead(win)
-        self.body = LegoBody("blue", win)
+        self.body = LegoBody("red", win)#I changed the lego character from blue to red.
         self.legs = LegoLegs(win)
 
 
